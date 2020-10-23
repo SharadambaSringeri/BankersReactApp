@@ -15,7 +15,7 @@ class BankerService
     getCardLimitRequests()
     {
 
-        return axios.get(`${URL}/limitIncreasRrequest`);
+        return axios.get(`${URL}/limitIncreasRequest`);
 
     }
     getTransactionDisputeRequests()
