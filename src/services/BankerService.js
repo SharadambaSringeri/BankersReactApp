@@ -7,7 +7,7 @@ class BankerService
 
     getCardRequests()
     {
-         return axios.get(`${URL}/cardRrequest`);
+         return axios.get(`${URL}/cardRequest`);
 
 
     }
@@ -21,7 +21,7 @@ class BankerService
     getTransactionDisputeRequests()
     {
 
-        return axios.get(`${URL}/disputeTransactionRrequest`);
+        return axios.get(`${URL}/disputeTransactionRequest`);
 
     }
 
